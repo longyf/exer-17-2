@@ -3,6 +3,7 @@
 using namespace std;
 
 void test1() {
+	//123 + 456
 	int num1[3]={1,2,3};
 	int num2[3]={4,5,6};
 	printNumber(num1,3,1);
@@ -14,6 +15,7 @@ void test1() {
 }
 
 void test2() {
+	//123 + -456
     int num1[3]={1,2,3};
     int num2[3]={4,5,6};
     printNumber(num1,3,1);
@@ -25,6 +27,7 @@ void test2() {
 }
 
 void test3() {
+	//456 + -123
     int num2[3]={1,2,3};
     int num1[3]={4,5,6};
     printNumber(num1,3,1);
@@ -36,6 +39,7 @@ void test3() {
 }
 
 void test4() {
+	//123 + 956
     int num1[3]={1,2,3};
     int num2[3]={9,5,6};
     printNumber(num1,3,1);
@@ -47,6 +51,7 @@ void test4() {
 }
 
 void test5() {
+	//-123 + -456
     int num1[3]={1,2,3};
     int num2[3]={4,5,6};
     printNumber(num1,3,0);
@@ -58,6 +63,7 @@ void test5() {
 }
 
 void test6() {
+	//999 + 999
     int num1[3]={9,9,9};
     int num2[3]={9,9,9};
     printNumber(num1,3,1);
@@ -69,6 +75,7 @@ void test6() {
 }
 
 void test7() {
+	//99 + -123
     int num1[3]={0,9,9};
     int num2[3]={1,2,3};
     printNumber(num1,3,0);
@@ -80,12 +87,12 @@ void test7() {
 }
 
 int main() {
-/*	test1();
+	test1();
 	test2();
 	test3();
 	test4();
 	test5();
-	test6();*/
+	test6();
 	test7();
 	return 0;
 }
