@@ -86,6 +86,30 @@ void test7() {
     cout<<endl;
 }
 
+void test8() {
+    //-999 + -999
+    int num1[3]={9,9,9};
+    int num2[3]={9,9,9};
+    printNumber(num1,3,0);
+    cout<<" + ";
+    printNumber(num2,3,0);
+    cout<<" = ";
+    addTwoNumbers(3,num1,0,num2,0);
+    cout<<endl;
+}
+
+void test9() {
+    //-999 + 999
+    int num1[3]={9,9,9};
+    int num2[3]={9,9,9};
+    printNumber(num1,3,0);
+    cout<<" + ";
+    printNumber(num2,3,1);
+    cout<<" = ";
+    addTwoNumbers(3,num1,0,num2,1);
+    cout<<endl;
+}
+
 int main() {
 	test1();
 	test2();
@@ -94,5 +118,7 @@ int main() {
 	test5();
 	test6();
 	test7();
+	test8();
+	test9();
 	return 0;
 }

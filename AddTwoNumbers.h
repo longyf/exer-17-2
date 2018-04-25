@@ -99,6 +99,7 @@ void printNumber(int sum[], int length, bool isPostive) {
 		if (sum[i]!=0) isPrinted=true;
 		if (isPrinted) cout<<sum[i];
 	}
-
+	
+	if (!isPrinted) cout<<0;
 }
 #endif
